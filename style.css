@@ -36,3 +36,14 @@ body {
     font-family: sans-serif;
     margin: 0px;
 }
+.half-width-two img{
+    width: 88%;
+    padding-right: 5%;
+}
+
+.section-two{
+    padding-left: 5%;
+    background-image: url(image/img-3.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
