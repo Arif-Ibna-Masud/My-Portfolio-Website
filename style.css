@@ -68,3 +68,11 @@ body {
 .baby-developer{
     border-left: 7px solid blue;
 }
+
+footer p {
+    text-align: center;
+}
+.facebook img{
+    margin-left: 13.5%;
+    width: 17.66666666666667%;
+}
