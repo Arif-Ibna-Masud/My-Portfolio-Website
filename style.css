@@ -1,3 +1,45 @@
+
+header{
+    height: 50px;
+    background-color: black;
+    padding-top: 13px;
+    padding-left: 2%;
+}
+.flex{
+    display: flex;
+}
+button{
+    background-image: linear-gradient(tomato,orange);
+    padding: 6px 8px;
+    font-size: 18px;
+    border-radius: 6px;  
+    transition: all .2s linear;
+    margin-left: 2%;
+}
+.header-buttons{
+    text-decoration: none;
+    color: white;
+}
+button:hover{
+    transform: scale(0.85);
+}
+.same:hover{
+    font-size: 30px;
+    padding-top: 5px;
+    transform: scale(1.4);
+    color: orchid;
+}
+.same{
+    font-size: 30px;
+    color: white;
+    padding-right: 60px;
+    transition: all .2s linear;
+}
+.iconsss{
+    padding-left: 550px;
+}
+/* ************************** hover-end-hire ************************** */
+
 h1 {
     font-size: 50px;
 }
@@ -6,28 +48,35 @@ h1 {
     color: orange;
 }
 
+p{
+    font-size: 18px;
+    line-height: 0.75cm;
+}
+
 .display{
     display: flex;
-    margin-bottom: 150px;
+    margin-bottom: 110px;
 }
 
 .half-width{
     width: 50%;
-    padding-left: 50px;
+    padding-left: 62px;
 }
 .half-width img{
-    width: 88%;
-    padding-top: 11%;
+    width: 82%;
+    padding-top: 10%;
     padding-left: 5%;
 }
-
 .link-button{
+    font-size: 18px;
+    color: white;
     text-decoration: none;
     background-image: linear-gradient(orange, tomato);
     padding: 10px 40px;
     border-radius: 8px;
 }
 .section-one{
+    padding-top: 2px;
     background-image: url(image/img.png);
     background-repeat: no-repeat;
 }
@@ -37,8 +86,8 @@ body {
     margin: 0px;
 }
 .half-width-two img{
-    width: 88%;
-    padding-right: 5%;
+    padding-top: 10%;
+    width: 90%;
 }
 
 .section-two{
@@ -49,12 +98,16 @@ body {
 }
 
 #Experience-item{
-    width: 40%;
-    margin-left: 5%;
+    width: 30%;
+    margin-left: 10%;
     margin-right: 5%;
     padding: 2%;
     border-radius: 5%;
     box-shadow: 10px 10px 40px;
+}
+.p2{
+    font-size: 16px;
+    line-height: 0.70cm;
 }
 
 .Experiences{
@@ -72,16 +125,37 @@ body {
 footer p {
     text-align: center;
 }
-.facebook img{
-    margin-left: 13.5%;
-    width: 17.66666666666667%;
+.orange{
+    color: orangered;
 }
-
-#youtube img{
-    margin-left: 10%;
-    width: 17.66666666666667%;
+h2{
+    font-size: 45px;
 }
-.linkedin img{
-    margin-left: 10%;
-    width: 17.66666666666667%;
+.icons-six{
+    text-align: center;
+}
+.fa-brands{
+    font-size: 60px;
+}
+.fa-facebook{
+    color: rgb(0, 89, 255);
+}
+.fa-instagram{
+    color: rgb(255, 46, 227);
+}
+.fa-twitter{
+    color: rgb(0, 89, 255);
+}
+.fa-reddit{
+    color: rgb(255, 68, 0);
+}
+.fa-linkedin{
+    color: rgb(0, 89, 255);
+}
+.mt:hover{
+    transform: scale(1.4);
+}
+.mt{
+    transition: all .3s linear;
+    margin: 30px;
 }
